@@ -34,3 +34,21 @@
   color: rgb(13, 13, 13);
   font-size:xx-large ;
 }
+.contact{
+  color: blueviolet;
+}
+.about {
+  max-width: 600px;
+  margin: auto;
+}
+
+.point {
+  margin-bottom: 20px;
+}
+
+.point p {
+  margin: 0;
+  padding-left: 20px;
+  text-align: justify;
+  font-weight: 900;
+}
