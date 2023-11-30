@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  font-family: sans-serif;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.navbar {
+  width: 150%;
+  min-height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #171616;
+  background: rgb(225, 95, 8);
+}
+
+.App .navbar .nav-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.App .navbar .nav-links>a{
+  color: #fff;
+  text-decoration: none;
+}
+.para{
+  color: rgb(13, 13, 13);
+  font-size:xx-large ;
+}
