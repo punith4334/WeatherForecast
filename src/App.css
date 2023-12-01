@@ -207,12 +207,12 @@ p {
 
 .logged-in-button {
 	background-color: #4caf50;
-	color: rgb(7, 7, 7);
-	padding: 10px;
-	border: none;
-	border-radius: 4px;
-	cursor: pointer;
-	height: 100px;
-	width: 300px;
-	font-size: 25px; 
+  color: rgb(7, 7, 7);
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  height: 100px;
+  width: 350px;
+  font-size: 25px;
   }

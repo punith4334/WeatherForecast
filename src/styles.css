@@ -38,12 +38,17 @@
   color: blueviolet;
 }
 .about {
-  max-width: 600px;
+  max-width: 1000px;
   margin: auto;
+  font-size: 25px;
+  text-align: justify;
+
 }
 
 .point {
   margin-bottom: 20px;
+  font-size: 25px;
+  text-align: justify; 
 }
 
 .point p {

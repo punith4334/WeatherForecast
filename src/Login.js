@@ -66,7 +66,7 @@ const LoginSignup = () => {
       <form>
         <label>
           Email:
-          <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
+          <input type="text" value={email} onChange={(e) => setEmail(e.target.value)} required />
         </label>
         <label>
           Password:
@@ -75,7 +75,7 @@ const LoginSignup = () => {
         {mode !== 'login' ? (
           <button type="submit" onClick={handlePost}>Sign Up</button>
         ) : (
-          <button type="submit" onClick={handlePost}>Login</button>
+         <Link><button type="submit" onClick={handlePost} >Login</button></Link>
         )}
       </form>
       <p onClick={handleModeChange}>{mode === 'login' ? 'Switch to Sign Up' : 'Switch to Login'}</p>
